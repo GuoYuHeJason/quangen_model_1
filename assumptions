@@ -1,0 +1,29 @@
+Directional selection
+The phenotype is normally distributed in the parent generation ~ N(M, V)
+proportion P of individuals is selected to contribute to the next generation
+based on phenotypic values
+Random Mating
+Infinitesimal Model: infinite number of loci
+Environmental deviation is normally distributed
+Envrionmental variance is constant
+No epistatsis effects.
+no physical linkage disequilibrium between loci
+
+
+The genetic variance is composed of equilibrium and disequilibrium contribution
+equilibrium genetic variance is the genetic variance at H-W equilibrium
+without physical linkage, the disequilibrium contribution without selection would be 0.
+
+Selection would introduce a negative correlation between pairs of loci, and the actual genetic variance will be less than the equilibrium
+genetic variance.
+
+1/2 of the disequilibrium contribution will be retained in the next generation without selection.
+And the disequilibrium contribution introduced by selection is from heretibility, and change in the variance of the selected parental group.
+which in normal distribution, is dV = -I(I-x)V. 
+
+# Analyses: how to maximize end response to selection.
+R* = h2 * I * np.sqrt(V)
+
+only depends on d*,
+
+d* is always negative, 

@@ -1,0 +1,35 @@
+I model this 
+
+In reality, this change in mean phenotype would have a physical cap.
+mutation
+drift.(the effect of population size)
+
+directional selection reduces variation by creating linkage disequilibrium, no physical linkage disequilibrium is needed.
+
+so the reduction in additive genetic variance is quantified by Disequilibrium component d.
+
+
+result 
+1. eq d, eq response to selection
+2. validity of eq d
+3. Jacobian, M eigen =1, never stable, eq M(t+1) - M(t) is constant
+
+summarize the entire report according to this outline. Skip most of the algebra
+1. the biological question of how artificial selection works in the quantitative genetics framework, why the genetic variance never goes to 0, how the selection intensity affect equalibrium variance and response to selection. What is the best strategy for selection intensity.
+2. the model, explain the life cycle, random mating, truncation. explain the parameters. espicially how we get I, x, the recursion equations, explain what d is. explain the assumptions of random mating (H-W equilibrium), normal distribution of phenotype, constant enviromental varaince, no physical linkage disequilibrium, infinite population and so on.
+3. the result
+3(1): run the simulation according to the paper, show that we get the same result
+3(2): show that there is no equailibrium for mean phenotype.
+3(3): find the equailibrium for d. analyse its validity, so that it is always valid, except for numerical instability for very small h2 and very small P, where d appoarches a. show that d* always valid
+3(4): get the Jacobian, show that lambda2 is always < 1, so d* always stable.
+3(5): get dd*/dP, explain how d, V, A and response to selection changes with P.
+3(6): when selection stops, the variance quickly returns.
+4. Disccusion
+Answer the questions,  in this model, it is best to select as intensely as possible to get the best response to selection. This is mostly because 1. the population is infinite, 2. there is no physical constraint of the phenotype. This is the apporach taken by some plant breeders, such as big mac banana, where 1 individual is selected to self propagate. But since the 2 assumption above are not true, there is no genetic variation left, and the phenotypic value is set. This is also similar to the apporach taken by some animal breeders, where there are dogs the size of a tea cup, but due to physical constraint of inability to mate, the trait value won't go to inifinite.
+
+So the first extension would be to have a finite constant population, I expect then the selection proportion will be constraint. And with finite population we could consider the effect of genetic drift and related things such as sex ratio, family size and so on. The next thing to consider is a physical cap on the phenotypic value, this could be modeled similarly to carrying compacity of population growth. We could also consider mutation as a source of genetic variation.
+
+
+This resolves the apparent paradox of persistent genetic variation under selection by demonstrating that selection creates temporary, not permanent, reductions in usable genetic variance through linkage disequilibrium. Same as (Bulmer). but with more math and simulations.
+
+General solution

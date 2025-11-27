@@ -1,0 +1,27 @@
+recombination reduces linkage disequilibrium, length of LD blocks
+distance 
+
+basic LD random based on sample size = no actual LD
+
+r2 prediction
+
+new mutation: linked with chr it occurs on, until recombination
+
+population structure: isolated, linkage -> admixture 
+
+Walhund effect: pooling subpopulations
+
+inversion reduces recombination
+
+inbreeding/self fertalization -> increase homozygosity, decrease recombination that create differences
+make long blocks presist
+
+natrual selection of loci combinations (epistasis)
+functional LD, kill the recombinations
+
+canadate gene
+
+no polymorphism: can't do calculations
+
+predict time by LD
+
